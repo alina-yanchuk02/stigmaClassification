@@ -15,7 +15,7 @@ To execute, run:
 
 ### 1. Preprocessing
 
-The Preprocessing stage is organized in a Jupyter Notebook, with the relevant steps described in the same. The data file used is the file returned in the Data Collection step (needs manual class annotation). Returns a data file for the Classification task and the Topic Modeling task and a data file for the final Exploratory Data Analysis task.
+The Preprocessing stage is organized in a Jupyter Notebook, with the relevant steps described in the same. The data file used is the file returned in the Data Collection step (needs manual class annotation). Returns a data file for the Classification task and the Topic Modeling task and a data file for the final Visualization and Analysis task.
  
  Note: the data file in the directory (data_labeled.csv) is already manually labeled and also got some manual processing (after being returned in the Data Collection stage) to fully prepare it for the next steps.
 
@@ -40,9 +40,9 @@ Models implemented:
 
 The Topic Modeling stage is organized in a Jupyter Notebook, with the relevant steps described in the same. The data file used is the file with the cleaned data returned in the Preprocessing step. 
 
-### 4. Exploratory Data Analysis
+### 4. Visualization and Analysis
 
-The Exploratory Data Analysis stage is organized in a Jupyter Notebook, with the relevant steps described in the same. The data file used is the file with the cleaned and prepared (for EDA) data returned in the Preprocessing step. This step was done to obtain final insights about the data after automatic Classification and Topic Modeling. Can be adapated to other needs.
+The Visualization and Analysis stage is organized in a Jupyter Notebook, with the relevant steps described in the same. The data file used is the file with the cleaned and prepared (for VA) data returned in the Preprocessing step. This step was done to obtain final insights about the data after automatic Classification and Topic Modeling. Can be adapated to other needs.
 
 
 About Jupyter Notebooks: https://docs.jupyter.org/en/latest/
